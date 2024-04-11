@@ -5,7 +5,7 @@ def get_content(fname):
 def create_list_of_names(cnt):
     ml = {}
     for i in cnt:
-        if i.is:
+        if i.isalpha():
             if i in ml:
                 ml[i] += 1
             else:
